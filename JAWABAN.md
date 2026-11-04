@@ -32,3 +32,10 @@ Salin blok di bawah untuk setiap bug yang Anda temukan.
 - Lokasi (file:baris): pasien/daftar.blade.php:65
 - Penyebab: field tgl lahir tidak sesuai
 - Perbaikan: mengubah field menjadi tanggal_lahir
+
+## Bug 5
+
+- Gejala: Tidak bisa mengubah data pasien
+- Lokasi (file:baris): 
+- Penyebab: 
+- Perbaikan: 
