@@ -25,3 +25,10 @@ Salin blok di bawah untuk setiap bug yang Anda temukan.
 - Lokasi (file:baris): routes/web.php:26
 - Penyebab: dari form mengirimkan method post, sedangkan di route menggunakan put
 - Perbaikan: mengubah method menjadi post
+
+## Bug 4
+
+- Gejala: Tidak bisa menampilkan data pasien
+- Lokasi (file:baris): pasien/daftar.blade.php:65
+- Penyebab: field tgl lahir tidak sesuai
+- Perbaikan: mengubah field menjadi tanggal_lahir
