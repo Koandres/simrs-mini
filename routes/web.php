@@ -23,6 +23,6 @@ Route::controller(DokterController::class)->prefix('dokter')->name('dokter.')->g
     Route::post('/', 'simpan')->name('simpan');
     Route::get('/{dokter}', 'detail')->name('detail');
     Route::get('/{dokter}/ubah', 'ubah')->name('ubah');
-    Route::put('/{dokter}', 'perbarui')->name('perbarui');
+    Route::post('/{dokter}', 'perbarui')->name('perbarui');
     Route::delete('/{dokter}', 'hapus')->name('hapus');
 });

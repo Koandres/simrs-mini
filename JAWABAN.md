@@ -18,3 +18,10 @@ Salin blok di bawah untuk setiap bug yang Anda temukan.
 - Lokasi (file:baris): controllers/DashboardControllers.php:17
 - Penyebab: filter jenis kelamin salah
 - Perbaikan: mengubah filter dari Perempuan menjadi P
+
+## Bug 3
+
+- Gejala: Tidak bisa mengubah data dokter
+- Lokasi (file:baris): routes/web.php:26
+- Penyebab: dari form mengirimkan method post, sedangkan di route menggunakan put
+- Perbaikan: mengubah method menjadi post
