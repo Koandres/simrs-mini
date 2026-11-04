@@ -11,3 +11,10 @@ Salin blok di bawah untuk setiap bug yang Anda temukan.
 - Lokasi (file:baris): config/database.php:51
 - Penyebab: port tidak sesuai dengan mesin lokal
 - Perbaikan: penyesuaian port menjadi 3307
+
+## Bug 2
+
+- Gejala: Jumlah pasien perempuan tidak tampil
+- Lokasi (file:baris): controllers/DashboardControllers.php:17
+- Penyebab: filter jenis kelamin salah
+- Perbaikan: mengubah filter dari Perempuan menjadi P
